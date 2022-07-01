@@ -1,3 +1,9 @@
+using AutoMapper;
+using Mango.Services.ProductAPI.DbContexts;
+using Mango.Services.ProductAPI.Mapper;
+using Mango.Services.ProductAPI.Repository;
+using Microsoft.EntityFrameworkCore;
+
 namespace Mango.Services.ProductAPI
 {
     public class Program
@@ -6,7 +12,18 @@ namespace Mango.Services.ProductAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Add services to the container.--Vipin
+            builder.Services.AddDbContext<ApplicationDbContexts>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            //Automapper configuration -- Vipin
+            IMapper mapper = MappingConfig.RegesterMaps().CreateMapper();
+            builder.Services.AddSingleton(mapper);
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            //builder.Services.AddAutoMapper(typeof(MappingProfiles));
+
+            //Rpository Section injection--Vipin
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -28,7 +45,7 @@ namespace Mango.Services.ProductAPI
 
             app.MapControllers();
 
-            app.Run();
+            /**/app.Run();
         }
     }
 }
