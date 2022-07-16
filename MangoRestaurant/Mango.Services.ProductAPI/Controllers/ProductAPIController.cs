@@ -43,7 +43,7 @@ namespace Mango.Services.ProductAPI.Controllers
         {
             try
             {
-                IEnumerable<ProductDto> productDtos = await _productRepository.GetProducts();
+                ProductDto productDtos = await _productRepository.GetProductById(id);
                 _response.Result = productDtos;
             }
             catch (Exception ex)
@@ -91,6 +91,7 @@ namespace Mango.Services.ProductAPI.Controllers
         }
 
         [HttpDelete]
+        [Route("{id}")]
         public async Task<Object> Delete(int id)
         {
             try

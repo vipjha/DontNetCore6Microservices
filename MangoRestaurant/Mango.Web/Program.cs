@@ -1,5 +1,7 @@
 using Mango.Web.Services;
 using Mango.Web.Services.IServices;
+using Microsoft.Extensions.Configuration;
+
 
 namespace Mango.Web
 {
@@ -10,8 +12,17 @@ namespace Mango.Web
             var builder = WebApplication.CreateBuilder(args);
 
             //Add by Vip---
+           
+
             builder.Services.AddHttpClient<IProductService, ProductService>();
-            SD.ProductAPIBase = builder.Configuration["ServiceUrl.ProductAPI"];
+
+            //SD.ProductAPIBase = builder.Configuration["ServiceUrl.ProductAPI"];
+            //SD.ProductAPIBase = "https://localhost:7044"; /// need to resolve
+
+            var provider = builder.Services.BuildServiceProvider();
+            var configuration = provider.GetService<IConfiguration>();
+            SD.ProductAPIBase = configuration.GetValue<string>("ServiceUrl:ProductAPI");
+
             builder.Services.AddScoped<IProductService, ProductService>();
 
 

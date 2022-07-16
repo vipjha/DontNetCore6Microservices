@@ -6,6 +6,7 @@ namespace Mango.Web.Services
     public class ProductService : BaseService, IProductService
     {
         private readonly IHttpClientFactory _clientFactory;
+        //private readonly AppSettings _appSettings;
 
         public ProductService(IHttpClientFactory clientFactory) : base(clientFactory) 
         {
@@ -40,6 +41,7 @@ namespace Mango.Web.Services
                 ApiType = SD.ApiType.GET,
                 //Data = productDto,
                 Url = SD.ProductAPIBase + "/api/products",
+               // Url = "https://localhost:7044/api/products",
                 AccessToken = ""
             });
         }
