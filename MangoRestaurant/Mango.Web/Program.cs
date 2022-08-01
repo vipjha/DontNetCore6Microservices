@@ -12,8 +12,6 @@ namespace Mango.Web
             var builder = WebApplication.CreateBuilder(args);
 
             //Add by Vip---
-           
-
             builder.Services.AddHttpClient<IProductService, ProductService>();
 
             //SD.ProductAPIBase = builder.Configuration["ServiceUrl.ProductAPI"];
@@ -29,6 +27,25 @@ namespace Mango.Web
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            //Add services for authentication --Vipin
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultScheme = "Cookies";
+                options.DefaultChallengeScheme = "oidc";
+            }).AddCookie("Cookies", c => c.ExpireTimeSpan = TimeSpan.FromMinutes(10))
+            .AddOpenIdConnect("oidc", options =>
+            {
+                options.Authority =builder.Configuration["ServiceUrl:IdentityAPI"];
+                options.GetClaimsFromUserInfoEndpoint = true;
+                options.ClientId = "mango";
+                options.ClientSecret = "secret";
+                options.ResponseType = "code";
+                options.TokenValidationParameters.NameClaimType = "name";
+                options.TokenValidationParameters.RoleClaimType = "role";
+                options.Scope.Add("mango");
+                options.SaveTokens=true;
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -43,7 +60,7 @@ namespace Mango.Web
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication(); // added-vip
             app.UseAuthorization();
 
             app.MapControllerRoute(
