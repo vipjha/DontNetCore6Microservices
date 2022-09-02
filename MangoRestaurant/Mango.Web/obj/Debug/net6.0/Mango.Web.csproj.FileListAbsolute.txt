@@ -37,3 +37,11 @@ E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\ob
 E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.pdb
 E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.genruntimeconfig.cache
 E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\obj\Debug\net6.0\ref\Mango.Web.dll
+E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

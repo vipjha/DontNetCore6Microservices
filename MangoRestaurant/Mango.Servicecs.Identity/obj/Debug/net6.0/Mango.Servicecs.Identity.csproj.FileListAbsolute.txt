@@ -385,3 +385,4 @@ E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Servic
 E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Servicecs.Identity\obj\Debug\net6.0\Mango.Servicecs.Identity.pdb
 E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Servicecs.Identity\obj\Debug\net6.0\Mango.Servicecs.Identity.genruntimeconfig.cache
 E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Servicecs.Identity\obj\Debug\net6.0\ref\Mango.Servicecs.Identity.dll
+E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MangoRestaurant\Mango.Servicecs.Identity\bin\Debug\net6.0\keys\is-signing-key-22746894F5768A1BBCFB4B26B96FBF87.json
