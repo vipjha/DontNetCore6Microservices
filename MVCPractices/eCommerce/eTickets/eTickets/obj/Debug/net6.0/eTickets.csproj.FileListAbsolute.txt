@@ -82,6 +82,7 @@ E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MVCPractices\eCommerce\eTick
 E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MVCPractices\eCommerce\eTickets\eTickets\obj\Debug\net6.0\eTickets.pdb
 E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MVCPractices\eCommerce\eTickets\eTickets\obj\Debug\net6.0\eTickets.genruntimeconfig.cache
 E:\FinleWorkToUploadOnGit\DontNetCore6Microservices\MVCPractices\eCommerce\eTickets\eTickets\obj\Debug\net6.0\ref\eTickets.dll
+<<<<<<< HEAD
 D:\PracticalWork\FinelToGitUpload\DotnetPractices\DontNetCore6Microservices\MVCPractices\eCommerce\eTickets\eTickets\bin\Debug\net6.0\appsettings.Development.json
 D:\PracticalWork\FinelToGitUpload\DotnetPractices\DontNetCore6Microservices\MVCPractices\eCommerce\eTickets\eTickets\bin\Debug\net6.0\appsettings.json
 D:\PracticalWork\FinelToGitUpload\DotnetPractices\DontNetCore6Microservices\MVCPractices\eCommerce\eTickets\eTickets\bin\Debug\net6.0\eTickets.staticwebassets.runtime.json
@@ -172,3 +173,5 @@ D:\PracticalWork\FinelToGitUpload\DotnetPractices\DontNetCore6Microservices\MVCP
 D:\PracticalWork\FinelToGitUpload\DotnetPractices\DontNetCore6Microservices\MVCPractices\eCommerce\eTickets\eTickets\obj\Debug\net6.0\eTickets.pdb
 D:\PracticalWork\FinelToGitUpload\DotnetPractices\DontNetCore6Microservices\MVCPractices\eCommerce\eTickets\eTickets\obj\Debug\net6.0\eTickets.genruntimeconfig.cache
 D:\PracticalWork\FinelToGitUpload\DotnetPractices\DontNetCore6Microservices\MVCPractices\eCommerce\eTickets\eTickets\obj\Debug\net6.0\ref\eTickets.dll
+=======
+>>>>>>> df8e9567d82b81b057225729c6913f0eb140f1a1

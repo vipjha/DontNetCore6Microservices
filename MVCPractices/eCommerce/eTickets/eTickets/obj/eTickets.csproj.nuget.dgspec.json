@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\PracticalWork\\FinelToGitUpload\\DotnetPractices\\DontNetCore6Microservices\\MVCPractices\\eCommerce\\eTickets\\eTickets\\eTickets.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "D:\\PracticalWork\\FinelToGitUpload\\DotnetPractices\\DontNetCore6Microservices\\MVCPractices\\eCommerce\\eTickets\\eTickets\\eTickets.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
         "outputPath": "D:\\PracticalWork\\FinelToGitUpload\\DotnetPractices\\DontNetCore6Microservices\\MVCPractices\\eCommerce\\eTickets\\eTickets\\obj\\",
+=======
+    "E:\\FinleWorkToUploadOnGit\\DontNetCore6Microservices\\MVCPractices\\eCommerce\\eTickets\\eTickets\\eTickets.csproj": {}
+  },
+  "projects": {
+    "E:\\FinleWorkToUploadOnGit\\DontNetCore6Microservices\\MVCPractices\\eCommerce\\eTickets\\eTickets\\eTickets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FinleWorkToUploadOnGit\\DontNetCore6Microservices\\MVCPractices\\eCommerce\\eTickets\\eTickets\\eTickets.csproj",
+        "projectName": "eTickets",
+        "projectPath": "E:\\FinleWorkToUploadOnGit\\DontNetCore6Microservices\\MVCPractices\\eCommerce\\eTickets\\eTickets\\eTickets.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\FinleWorkToUploadOnGit\\DontNetCore6Microservices\\MVCPractices\\eCommerce\\eTickets\\eTickets\\obj\\",
+>>>>>>> df8e9567d82b81b057225729c6913f0eb140f1a1
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> df8e9567d82b81b057225729c6913f0eb140f1a1
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +44,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
+=======
+>>>>>>> df8e9567d82b81b057225729c6913f0eb140f1a1
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +60,14 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+=======
+>>>>>>> df8e9567d82b81b057225729c6913f0eb140f1a1
         }
       },
       "frameworks": {
@@ -75,8 +99,12 @@
             "net47",
             "net471",
             "net472",
+<<<<<<< HEAD
             "net48",
             "net481"
+=======
+            "net48"
+>>>>>>> df8e9567d82b81b057225729c6913f0eb140f1a1
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -88,7 +116,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+>>>>>>> df8e9567d82b81b057225729c6913f0eb140f1a1
         }
       }
     }
